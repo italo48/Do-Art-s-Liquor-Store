@@ -6,8 +6,12 @@
 
 .container{
     margin: auto 30px;
+    margin-bottom: 50px;
 }
 
+.container p{
+    margin-top: 20px;
+}
 
 .container-fluid{
     margin: 1px;
@@ -181,20 +185,16 @@
     color: black;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .form-container{
     /* display: flex; */
-    width: 100%;
+    width: 50%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.form-container ul{
-    list-style: none;
-    align-content: center;
-}
-
-.form-container li{
-    margin: 10px auto;
 }
 
 .footer{
@@ -218,4 +218,57 @@
     color: black;
     display: block;
     padding: 10px 20px;
+}
+
+.wrapper {
+/* background-color: whitesmoke; */
+list-style-type: none;
+padding: 0;
+border-radius: 3px;
+}
+.form-row {
+display: flex;
+justify-content: flex-end;
+padding: .5em;
+}
+.form-row > label {
+padding: .5em 1em .5em 0;
+flex: 1;
+}
+.form-row > input {
+flex: 2;
+}
+.form-row > input,
+.form-row > button {
+padding: .5em;
+}
+.form-row > button {
+background: gray;
+color: white;
+border: 0;
+}
+.form-row > textarea{
+    width: 100%;
+    resize: none;
+}
+.form-but{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+.form-row > input {
+    flex: 3;  
+}
+}
+@media screen and (min-width: 992px) {
+.form-row > input {
+    flex: 4;  
+}
+}
+@media screen and (min-width: 1200px) {
+.form-row > input {
+    flex: 5;  
+}
 }
