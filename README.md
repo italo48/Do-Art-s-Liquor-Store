@@ -1,6 +1,5 @@
 # Do-Art-s-Liquor-Store
-Trabalho 1 da disciplina de web
 
-# Descrição
-Nessa atividade é usado HTML, CSS e JavaScript, somente.
->>>>>>> master
+![alt text](telaprojeto.png)
+
+Site de uma loja de bebidas feito com a base da web (HTML, CSS e JavaScript)
